@@ -1,0 +1,13 @@
+{
+  "name": "helloworld-snap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "bin": {
+    "hello-snap": "main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+---
+name: hello-snap
+version: git
+summary: My first package to snapstore.
+description: |
+  Run with:-
+    $ hello-snap
+
+confinement: strict
+base: core20
+
+apps:
+  hello-snap:
+    command: bin/hello-snap
+
+parts:
+  hello-snap:
+    plugin: npm
+    npm-node-version: 14.16.1
+    source: .
